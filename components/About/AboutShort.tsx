@@ -1,4 +1,8 @@
+import { useRouter } from "next/router";
+
 const AboutShort = (): JSX.Element => {
+  const router = useRouter();
+
   return (
     <div className="flex justify-center" id="about">
       <div className="max-w-7xl w-full md:space-x-5 p-5 flex">
@@ -6,7 +10,7 @@ const AboutShort = (): JSX.Element => {
           <img src="svg/aboutShort.svg" className="w-9/12" />
         </div>
         <div className="flex flex-1 flex-col items-center justify-center space-y-4 py-16 text-justify md:text-left">
-          <h1 className="text-5xl w-full font-semibold tracking-wide text-blue-800 pb-3">
+          <h1 className="text-5xl w-full font-semibold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-blue-900 pb-3">
             About Us
           </h1>
           <p className="font-semibold text-xl">
@@ -33,12 +37,12 @@ const AboutShort = (): JSX.Element => {
             meaningful way.
           </p>
           <div className="pt-6">
-            <a
-              href="#"
-              className="transition px-10 py-3 text-xl rounded-full bg-yellow-300 hover:bg-yellow-400 font-semibold tracking-wide"
+            <button
+              onClick={() => router.push("#")}
+              className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl rounded-full bg-yellow-300 hover:bg-yellow-400 font-semibold tracking-wide"
             >
               Meet Our Team!
-            </a>
+            </button>
           </div>
         </div>
       </div>

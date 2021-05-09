@@ -1,4 +1,8 @@
+import { useRouter } from "next/router";
+
 const Hero = (): JSX.Element => {
+  const router = useRouter();
+
   return (
     <div className="flex justify-center bg-gradient-to-l from-blue-800 via-blue-700 to-blue-900">
       <div className="max-w-7xl flex w-full px-5 py-20">
@@ -10,12 +14,12 @@ const Hero = (): JSX.Element => {
             Upscale your business through Software Development & Other Services.
           </h3>
           <div className="pt-5">
-            <a
-              href="#"
-              className="transition px-10 py-3 text-xl rounded-full bg-gray-100 hover:bg-yellow-300 font-semibold tracking-wide"
+            <button
+              onClick={() => router.push("#")}
+              className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl rounded-full bg-gray-100 hover:bg-yellow-300 font-semibold tracking-wide"
             >
               Get In Touch!
-            </a>
+            </button>
           </div>
         </div>
         <div className="hidden md:flex flex-1">
