@@ -1,7 +1,10 @@
 import { useRouter } from "next/router";
+import { useContext } from "react";
+import ContactContext from "../Contact/ContactContext";
 
 const Carrers = (): JSX.Element => {
   const router = useRouter();
+  const [form, setForm] = useContext(ContactContext);
 
   return (
     <div className="flex justify-center bg-gradient-to-b from-blue-500 to-blue-700">
@@ -16,7 +19,13 @@ const Carrers = (): JSX.Element => {
         </p>
         <div className="flex flex-col items-center space-y-2 font-semibold">
           <button
-            onClick={() => router.push("#")}
+            onClick={() => {
+              router.push("#contact");
+              setForm({
+                ...form,
+                subject: "I'm a Freelancer, I'm interested in a job!",
+              });
+            }}
             className="transition ease-in-out duration-500 transform hover:scale-110 px-8 py-2 text-lg rounded-full bg-yellow-300 hover:bg-yellow-400 font-semibold tracking-wide"
           >
             Reach Out!

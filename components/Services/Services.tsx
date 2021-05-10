@@ -1,7 +1,10 @@
 import { useRouter } from "next/router";
+import { useContext } from "react";
+import ContactContext from "../Contact/ContactContext";
 
 const Services = (): JSX.Element => {
   const router = useRouter();
+  const [form, setForm] = useContext(ContactContext);
   return (
     <>
       <div
@@ -57,7 +60,13 @@ const Services = (): JSX.Element => {
               </p>
               <div className="flex justify-center">
                 <button
-                  onClick={() => router.push("#")}
+                  onClick={() => {
+                    router.push("#contact");
+                    setForm({
+                      ...form,
+                      subject: "Software Development Service",
+                    });
+                  }}
                   className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl rounded-full text-gray-50 bg-gray-800 hover:bg-gray-900 font-semibold tracking-wide"
                 >
                   Get Started!
@@ -127,7 +136,13 @@ const Services = (): JSX.Element => {
               </p>
               <div className="flex justify-center">
                 <button
-                  onClick={() => router.push("#")}
+                  onClick={() => {
+                    router.push("#contact");
+                    setForm({
+                      ...form,
+                      subject: "Blockchain Development Service",
+                    });
+                  }}
                   className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl rounded-full text-gray-50 bg-gray-800 hover:bg-gray-900 font-semibold tracking-wide"
                 >
                   Get Started!
@@ -188,7 +203,13 @@ const Services = (): JSX.Element => {
               </p>
               <div className="flex justify-center">
                 <button
-                  onClick={() => router.push("#")}
+                  onClick={() => {
+                    router.push("#contact");
+                    setForm({
+                      ...form,
+                      subject: "Security Consulting Service",
+                    });
+                  }}
                   className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl rounded-full text-gray-50 bg-gray-800 hover:bg-gray-900 font-semibold tracking-wide"
                 >
                   Get Started!

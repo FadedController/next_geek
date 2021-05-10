@@ -1,6 +1,9 @@
 import Head from "next/head";
+import About from "../components/About/About";
 import AboutShort from "../components/About/AboutShort";
+import Team from "../components/About/Team";
 import Carrers from "../components/Banners/Carrers";
+import Contact from "../components/Contact/Contact";
 import AboutHero from "../components/Hero/AboutHero";
 import DesktopNav from "../components/Navigation/DesktopNav";
 
@@ -12,7 +15,7 @@ const AboutPage = (): JSX.Element => {
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
         />
-        <title>NextGeek - About</title>
+        <title className="bg-yellow-400">NextGeek - About</title>
       </Head>
       <DesktopNav
         currentPage={{ about: true }}
@@ -24,8 +27,11 @@ const AboutPage = (): JSX.Element => {
         }}
       />
       <AboutHero />
-      <AboutShort />
+      <AboutShort link="#team" />
+      <About />
+      <Team />
       <Carrers />
+      <Contact />
     </>
   );
 };

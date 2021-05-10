@@ -1,3 +1,16 @@
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(229, 231, 235);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(251, 191, 36);
+  border-radius: 2px;
+}
+
 html {
   scroll-behavior: smooth;
 }

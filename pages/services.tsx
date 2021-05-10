@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Carrers from "../components/Banners/Carrers";
+import Contact from "../components/Contact/Contact";
 import ServicesHero from "../components/Hero/ServicesHero";
 import DesktopNav from "../components/Navigation/DesktopNav";
 import Services from "../components/Services/Services";
@@ -34,6 +35,7 @@ const ServicesPage = (): JSX.Element => {
       />
       <Services />
       <Carrers />
+      <Contact />
     </>
   );
 };

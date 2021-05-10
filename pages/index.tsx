@@ -5,6 +5,7 @@ import AboutShort from "../components/About/AboutShort";
 import Stats from "../components/Banners/Stats";
 import ServicesShort from "../components/Services/ServicesShort";
 import Carrers from "../components/Banners/Carrers";
+import Contact from "../components/Contact/Contact";
 
 const IndexPage = (): JSX.Element => {
   return (
@@ -26,7 +27,7 @@ const IndexPage = (): JSX.Element => {
         }}
       />
       <Hero />
-      <AboutShort />
+      <AboutShort link="/about#team" />
       <Stats />
       <ServicesShort
         links={{
@@ -36,6 +37,7 @@ const IndexPage = (): JSX.Element => {
         }}
       />
       <Carrers />
+      <Contact />
     </>
   );
 };

@@ -15,7 +15,7 @@ const Hero = (): JSX.Element => {
           </h3>
           <div className="pt-5">
             <button
-              onClick={() => router.push("#")}
+              onClick={() => router.push("#contact")}
               className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl rounded-full bg-gray-100 hover:bg-yellow-300 font-semibold tracking-wide"
             >
               Get In Touch!
