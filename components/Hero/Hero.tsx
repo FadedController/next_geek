@@ -8,7 +8,7 @@ const Hero = (): JSX.Element => {
       <div className="max-w-7xl flex w-full px-5 py-20">
         <div className="flex flex-col flex-1 space-y-10">
           <h1 className="font-bold tracking-wide text-6xl text-gray-50">
-            IT Experts for Fast Growing Companies
+            IT Expertos for Fast Growing Companies
           </h1>
           <h3 className="text-3xl text-gray-50 tracking-wide">
             Upscale your business through Software Development & Other Services.
