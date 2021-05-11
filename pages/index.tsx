@@ -6,6 +6,15 @@ import Stats from "../components/Banners/Stats";
 import ServicesShort from "../components/Services/ServicesShort";
 import Carrers from "../components/Banners/Carrers";
 import Contact from "../components/Contact/Contact";
+import MobileNav from "../components/Navigation/MobileNav";
+import BackToTop from "../components/Contact/BackToTop";
+
+const links = {
+  home: "#",
+  about: "/about",
+  contact: "#contact",
+  services: "/services",
+};
 
 const IndexPage = (): JSX.Element => {
   return (
@@ -17,15 +26,8 @@ const IndexPage = (): JSX.Element => {
         />
         <title>NextGeek - Home</title>
       </Head>
-      <DesktopNav
-        currentPage={{ home: true }}
-        links={{
-          home: "#",
-          about: "/about",
-          contact: "#contact",
-          services: "/services",
-        }}
-      />
+      <DesktopNav currentPage={{ home: true }} links={links} />
+      <MobileNav links={links} />
       <Hero />
       <AboutShort link="/about#team" />
       <Stats />
@@ -38,6 +40,7 @@ const IndexPage = (): JSX.Element => {
       />
       <Carrers />
       <Contact />
+      <BackToTop />
     </>
   );
 };

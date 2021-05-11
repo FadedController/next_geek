@@ -7,7 +7,7 @@ const ServicesHero = (): JSX.Element => {
     <div className="flex justify-center bg-gray-200 shadow-inner">
       <div className="max-w-7xl flex w-full px-5 py-20">
         <div className="flex flex-col flex-1 space-y-10 md:pr-5">
-          <h1 className="font-bold tracking-wide text-6xl text-gray-900">
+          <h1 className="font-bold tracking-wide text-5xl md:text-6xl text-gray-900">
             Get what your business needs
           </h1>
           <h3 className="text-3xl text-gray-900 tracking-wide">

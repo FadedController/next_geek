@@ -5,7 +5,7 @@ const Team = (): JSX.Element => {
         <h1 className="text-5xl w-full text-center font-semibold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-blue-900 pb-3">
           Our Team
         </h1>
-        <div className="grid gap-5 text-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 text-center grid-cols-1 md:grid-cols-2 px-5 lg:grid-cols-3">
           <div className="flex flex-col space-y-8 items-center">
             <img src="svg/programmingBlue.svg" className="h-64" />
             <h2 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-blue-900">
