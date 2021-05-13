@@ -1,3 +1,4 @@
+import { FormspreeProvider } from "@formspree/react";
 import { useState } from "react";
 import "tailwindcss/tailwind.css";
 import ContactContext from "../components/Contact/ContactContext";
@@ -22,9 +23,11 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <ContactContext.Provider value={[form, setForm]}>
-      <div className="bg-gray-100 min-h-screen">
-        <Component {...pageProps} />
-      </div>
+      <FormspreeProvider project="project-id">
+        <div className="bg-gray-100 min-h-screen">
+          <Component {...pageProps} />
+        </div>
+      </FormspreeProvider>
     </ContactContext.Provider>
   );
 };

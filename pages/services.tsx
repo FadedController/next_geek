@@ -2,6 +2,7 @@ import Head from "next/head";
 import Carrers from "../components/Banners/Carrers";
 import BackToTop from "../components/Contact/BackToTop";
 import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
 import ServicesHero from "../components/Hero/ServicesHero";
 import DesktopNav from "../components/Navigation/DesktopNav";
 import MobileNav from "../components/Navigation/MobileNav";
@@ -33,12 +34,14 @@ const ServicesPage = (): JSX.Element => {
           blockchainDevelopment: "#blockchain",
           softwareDevelopment: "#development",
           securityConsulting: "#security",
+          homeAutomation: "#automation",
         }}
       />
       <Services />
       <Carrers />
       <Contact />
       <BackToTop />
+      <Footer />
     </>
   );
 };

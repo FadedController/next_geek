@@ -156,6 +156,7 @@ const Services = (): JSX.Element => {
           </div>
         </div>
       </div>
+
       <div
         className="flex justify-center bg-gradient-to-tr from-red-400 via-red-600 to-red-500"
         id="security"
@@ -215,6 +216,84 @@ const Services = (): JSX.Element => {
                   Get Started!
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="flex justify-center bg-gradient-to-l from-purple-600 via-purple-700 to-purple-900"
+        id="automation"
+      >
+        <div className="max-w-7xl w-full flex py-16 px-5">
+          <div className="flex flex-1 md:space-x-16">
+            <div className="flex flex-col flex-1 space-y-5 bg-gray-50 opacity-90 rounded-md p-5 text-justify md:text-left text-lg">
+              <h1 className="text-5xl w-full font-semibold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-purple-900 pb-2">
+                Home Automation
+              </h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut
+                minus, libero quasi, asperiores dicta a magnam blanditiis quia,
+                labore reiciendis doloremque sed excepturi rem facilis
+                laboriosam optio natus tenetur? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Tenetur quisquam sapiente
+                obcaecati fugiat, incidunt quidem sunt laudantium ab enim
+                quibusdam optio ex rem beatae delectus voluptates dolorem hic
+                quas tempora.
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut
+                minus, libero quasi, asperiores dicta a magnam blanditiis quia,
+                labore reiciendis doloremque sed excepturi rem facilis
+                laboriosam optio natus tenetur? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Tenetur quisquam sapiente
+                obcaecati fugiat, incidunt quidem sunt laudantium ab enim
+                quibusdam optio ex rem beatae delectus voluptates dolorem hic
+                quas tempora.
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut
+                minus, libero quasi, asperiores dicta a magnam blanditiis quia,
+                labore reiciendis doloremque sed excepturi rem facilis
+                laboriosam optio natus tenetur? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Tenetur quisquam sapiente
+                obcaecati fugiat, incidunt quidem sunt laudantium ab enim
+                quibusdam optio ex rem beatae delectus voluptates dolorem hic
+                quas tempora.
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut
+                minus, libero quasi, asperiores dicta a magnam blanditiis quia,
+                labore reiciendis doloremque sed excepturi rem facilis
+                laboriosam optio natus tenetur? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Tenetur quisquam sapiente
+                obcaecati fugiat, incidunt quidem sunt laudantium ab enim
+                quibusdam optio ex rem beatae delectus voluptates dolorem hic
+                quas tempora.
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Pariatur dolores quam dolorum aspernatur beatae temporibus
+                labore earum delectus saepe esse porro necessitatibus,
+                perferendis magni sit tenetur ullam iure maxime quo?
+              </p>
+              <div className="flex justify-center">
+                <button
+                  onClick={() => {
+                    router.push("#contact");
+                    setForm({
+                      ...form,
+                      subject: "Home Automation Service",
+                    });
+                  }}
+                  className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl rounded-full text-gray-50 bg-gray-800 hover:bg-gray-900 font-semibold tracking-wide"
+                >
+                  Get Started!
+                </button>
+              </div>
+            </div>
+            <div className="hidden md:flex flex-1 flex-col justify-center space-y-16">
+              <img src="svg/smartHomePurple.svg" />
+              <img src="svg/bestPlacePurple.svg" />
             </div>
           </div>
         </div>

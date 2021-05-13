@@ -8,6 +8,7 @@ import Carrers from "../components/Banners/Carrers";
 import Contact from "../components/Contact/Contact";
 import MobileNav from "../components/Navigation/MobileNav";
 import BackToTop from "../components/Contact/BackToTop";
+import Footer from "../components/Footer/Footer";
 
 const links = {
   home: "#",
@@ -36,11 +37,13 @@ const IndexPage = (): JSX.Element => {
           blockchainDevelopment: "/services#blockchain",
           securityConsulting: "/services#security",
           softwareDevelopment: "/services#development",
+          homeAutomation: "/services#automation",
         }}
       />
       <Carrers />
       <Contact />
       <BackToTop />
+      <Footer />
     </>
   );
 };

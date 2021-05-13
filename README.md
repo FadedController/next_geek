@@ -1,3 +1,3 @@
-# Next Geek
+# NextGeek Technologies
 
-Make some dev changes
+This is the NextGeek Technologies website source code. It was developed by Axel Daniel Padilla Reyes for NextGeek Technologies

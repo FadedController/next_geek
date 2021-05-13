@@ -5,6 +5,7 @@ const ServicesShort = (props: {
     softwareDevelopment: string;
     blockchainDevelopment: string;
     securityConsulting: string;
+    homeAutomation: string;
   };
 }): JSX.Element => {
   const router = useRouter();
@@ -12,6 +13,7 @@ const ServicesShort = (props: {
     blockchainDevelopment,
     securityConsulting,
     softwareDevelopment,
+    homeAutomation,
   } = props.links;
   return (
     <>
@@ -21,7 +23,7 @@ const ServicesShort = (props: {
             <h1 className="text-5xl w-full text-center font-semibold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-blue-900 pb-10">
               Software Services
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
               <div className="flex flex-col space-y-6">
                 <h2 className="text-3xl w-full text-center font-semibold text-transparent bg-clip-text bg-gradient-to-bl from-green-500 to-green-700 pb-3">
                   Software Development
@@ -84,6 +86,28 @@ const ServicesShort = (props: {
                   <button
                     onClick={() => router.push(securityConsulting)}
                     className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl text-gray-50 rounded-full bg-red-600 hover:bg-red-700 font-semibold tracking-wide"
+                  >
+                    Learn More
+                  </button>
+                </div>
+              </div>
+              <div className="flex flex-col space-y-6">
+                <h2 className="text-3xl w-full text-center font-semibold text-transparent bg-clip-text bg-gradient-to-bl from-purple-600 to-purple-900 pb-3">
+                  Home Automation {/* Software */}
+                </h2>
+                <div className="flex items-center justify-center">
+                  <img src="svg/smartHomePurple.svg" className="h-52" />
+                </div>
+                <p className="text-center font-medium text-lg pt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus voluptates, optio saepe fugiat consequatur qui natus
+                  placeat fugit voluptas? Vitae dolor harum consequatur nemo
+                  distinctio at pariatur. Nesciunt, nulla saepe.
+                </p>
+                <div className="pt-2 flex justify-center">
+                  <button
+                    onClick={() => router.push(homeAutomation)}
+                    className="transition ease-in-out duration-500 transform hover:scale-110 px-10 py-3 text-xl text-gray-50 rounded-full bg-purple-600 hover:bg-purple-700 font-semibold tracking-wide"
                   >
                     Learn More
                   </button>
