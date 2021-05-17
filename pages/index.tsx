@@ -9,6 +9,7 @@ import Contact from "../components/Contact/Contact";
 import MobileNav from "../components/Navigation/MobileNav";
 import BackToTop from "../components/Contact/BackToTop";
 import Footer from "../components/Footer/Footer";
+import Map from "../components/Contact/Map";
 
 const links = {
   home: "#",
@@ -41,6 +42,7 @@ const IndexPage = (): JSX.Element => {
         }}
       />
       <Carrers />
+      <Map />
       <Contact />
       <BackToTop />
       <Footer />

@@ -99,10 +99,11 @@ const ServicesShort = (props: {
                   <img src="svg/smartHomePurple.svg" className="h-52" />
                 </div>
                 <p className="text-center font-medium text-lg pt-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Possimus voluptates, optio saepe fugiat consequatur qui natus
-                  placeat fugit voluptas? Vitae dolor harum consequatur nemo
-                  distinctio at pariatur. Nesciunt, nulla saepe.
+                  Alexa, turn on the lights!. Welcome to the era of Smart Home
+                  Automation. We Provide Best Smart Systems Solutions (Lighting
+                  Control, HVAC Control ,Blinds & Curtains Control, Garage/Gate
+                  Door Control) for Residential and Commercial Projects With
+                  Wide Range of Technologies
                 </p>
                 <div className="pt-2 flex justify-center">
                   <button

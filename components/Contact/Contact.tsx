@@ -122,17 +122,10 @@ const Contact: React.FC = () => {
               </button>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center space-y-5 h-full">
+          {/* <div className="flex flex-col items-center justify-center space-y-5 h-full">
             <h1 className="text-5xl w-full md:px-2 px-5 font-semibold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-blue-900 pb-1">
               Find Us
             </h1>
-            {/* <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7533.1023092517635!2d72.97481711614647!3d19.25838371340115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9e46b55a8ecedd2!2sTara%20stationery!5e0!3m2!1ses-419!2suk!4v1620613026283!5m2!1ses-419!2suk"
-              className="w-11/12"
-              height="450"
-              allowFullScreen
-              loading="lazy"
-            ></iframe> */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635.5469820027545!2d72.87867283677201!3d19.26422219881443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE1JzUxLjIiTiA3MsKwNTInNDUuNiJF!5e1!3m2!1sen!2smx!4v1620869864987!5m2!1sen!2smx"
               className="w-11/12"
@@ -140,7 +133,7 @@ const Contact: React.FC = () => {
               allowFullScreen
               loading="lazy"
             ></iframe>
-          </div>
+          </div> */}
         </form>
       </div>
     </div>

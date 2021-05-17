@@ -231,51 +231,22 @@ const Services = (): JSX.Element => {
                 Home Automation
               </h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut
-                minus, libero quasi, asperiores dicta a magnam blanditiis quia,
-                labore reiciendis doloremque sed excepturi rem facilis
-                laboriosam optio natus tenetur? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Tenetur quisquam sapiente
-                obcaecati fugiat, incidunt quidem sunt laudantium ab enim
-                quibusdam optio ex rem beatae delectus voluptates dolorem hic
-                quas tempora.
+                Alexa, turn on the lights!. Welcome to the era of Smart Home
+                Automation. We Provide Best Smart Systems Solutions (Lighting
+                Control, HVAC Control ,Blinds & Curtains Control, Garage/Gate
+                Door Control) for Residential and Commercial Projects With Wide
+                Range of Choices and Latest Technologies like Voice Control
+                ,Smart Sensors , AI and IOT.
               </p>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut
-                minus, libero quasi, asperiores dicta a magnam blanditiis quia,
-                labore reiciendis doloremque sed excepturi rem facilis
-                laboriosam optio natus tenetur? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Tenetur quisquam sapiente
-                obcaecati fugiat, incidunt quidem sunt laudantium ab enim
-                quibusdam optio ex rem beatae delectus voluptates dolorem hic
-                quas tempora.
+                They combine and exceed the best features in the market and are
+                retrofit easily installed without any modification in your
+                existing electrical system. By using home automation service you
+                can monitor, control, automate your house without any hassle. A
+                true smart home makes your life more convenient and your home
+                safer, more comfortable, and easy to enjoy.
               </p>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut
-                minus, libero quasi, asperiores dicta a magnam blanditiis quia,
-                labore reiciendis doloremque sed excepturi rem facilis
-                laboriosam optio natus tenetur? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Tenetur quisquam sapiente
-                obcaecati fugiat, incidunt quidem sunt laudantium ab enim
-                quibusdam optio ex rem beatae delectus voluptates dolorem hic
-                quas tempora.
-              </p>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut
-                minus, libero quasi, asperiores dicta a magnam blanditiis quia,
-                labore reiciendis doloremque sed excepturi rem facilis
-                laboriosam optio natus tenetur? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Tenetur quisquam sapiente
-                obcaecati fugiat, incidunt quidem sunt laudantium ab enim
-                quibusdam optio ex rem beatae delectus voluptates dolorem hic
-                quas tempora.
-              </p>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Pariatur dolores quam dolorum aspernatur beatae temporibus
-                labore earum delectus saepe esse porro necessitatibus,
-                perferendis magni sit tenetur ullam iure maxime quo?
-              </p>
+
               <div className="flex justify-center">
                 <button
                   onClick={() => {
@@ -292,7 +263,7 @@ const Services = (): JSX.Element => {
               </div>
             </div>
             <div className="hidden md:flex flex-1 flex-col justify-center space-y-16">
-              <img src="svg/smartHomePurple.svg" />
+              {/* <img src="svg/smartHomePurple.svg" /> */}
               <img src="svg/bestPlacePurple.svg" />
             </div>
           </div>

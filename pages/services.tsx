@@ -2,6 +2,7 @@ import Head from "next/head";
 import Carrers from "../components/Banners/Carrers";
 import BackToTop from "../components/Contact/BackToTop";
 import Contact from "../components/Contact/Contact";
+import Map from "../components/Contact/Map";
 import Footer from "../components/Footer/Footer";
 import ServicesHero from "../components/Hero/ServicesHero";
 import DesktopNav from "../components/Navigation/DesktopNav";
@@ -39,6 +40,7 @@ const ServicesPage = (): JSX.Element => {
       />
       <Services />
       <Carrers />
+      <Map />
       <Contact />
       <BackToTop />
       <Footer />
