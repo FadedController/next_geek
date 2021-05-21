@@ -5,10 +5,20 @@ const Footer: React.FC = () => {
     <div className="flex justify-center bg-gradient-to-b from-blue-500 to-blue-700">
       <div className="max-w-7xl w-full flex flex-col items-center py-8 px-5 space-y-2">
         <div className="flex items-center justify-items-center text-gray-50 font-light space-x-5">
-          <img
+          {/*<img
             src="/contactInfo.png"
             className="w-96"
             alt="contact information"
+          />*/}
+          <img
+            src="/contactNumber.png"
+            className="w-52"
+            alt="contact number"
+          />
+          <img
+            src="/contactMail.png"
+            className="w-52"
+            alt="contact number"
           />
         </div>
         <div className="flex items-center justify-items-center pb-1">
