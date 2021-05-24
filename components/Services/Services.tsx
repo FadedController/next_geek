@@ -231,12 +231,14 @@ const Services = (): JSX.Element => {
                 Home Automation
               </h1>
               <p>
-                Alexa, turn on the lights!. Welcome to the era of Smart Home
-                Automation. We Provide Best Smart Systems Solutions (Lighting
-                Control, HVAC Control ,Blinds & Curtains Control, Garage/Gate
-                Door Control) for Residential and Commercial Projects With Wide
-                Range of Choices and Latest Technologies like Voice Control
-                ,Smart Sensors , AI and IOT.
+                <span className="italic">Alexa, turn on the lights! </span>
+              </p>
+              <p>
+                Welcome to the era of Smart Home Automation. We Provide Best
+                Smart Systems Solutions (Lighting Control, HVAC Control ,Blinds
+                & Curtains Control, Garage/Gate Door Control) for Residential
+                and Commercial Projects With Wide Range of Choices and Latest
+                Technologies like Voice Control ,Smart Sensors , AI and IOT.
               </p>
               <p>
                 They combine and exceed the best features in the market and are

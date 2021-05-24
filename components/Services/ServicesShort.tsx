@@ -99,7 +99,7 @@ const ServicesShort = (props: {
                   <img src="svg/smartHomePurple.svg" className="h-52" />
                 </div>
                 <p className="text-center font-medium text-lg pt-4">
-                  Alexa, turn on the lights!. Welcome to the era of Smart Home
+                  <span className="italic">Alexa, turn on the lights! </span>
                   Automation. We Provide Best Smart Systems Solutions (Lighting
                   Control, HVAC Control ,Blinds & Curtains Control, Garage/Gate
                   Door Control) for Residential and Commercial Projects With
